@@ -1,0 +1,13 @@
+{
+  "name": "job-notes",
+  "private": true,
+  "description": "Uppercut Labs Job notes: a browser form that writes a copy-ready support note.",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "check": "wrangler deploy --dry-run"
+  },
+  "devDependencies": {
+    "wrangler": "4.92.0"
+  }
+}
