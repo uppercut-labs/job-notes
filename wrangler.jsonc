@@ -3,8 +3,11 @@
   "name": "job-notes",
   "account_id": "f81d8a09a3b225b740c17f5a39f6cf80",
   "compatibility_date": "2026-10-31",
-  "workers_dev": true,
+  "workers_dev": false,
   "preview_urls": false,
+  "routes": [
+    { "pattern": "job-notes.uppercut-labs.com", "custom_domain": true }
+  ],
   "observability": {
     "enabled": true,
     "logs": {

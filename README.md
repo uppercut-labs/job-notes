@@ -6,7 +6,7 @@ What you type stays in the browser. Refreshing the page clears it. The Worker se
 
 ## Live
 
-https://job-notes.uppercut-labs.workers.dev
+https://job-notes.uppercut-labs.com
 
 Open `index.html` in a browser for the same page without deploying.
 
@@ -21,7 +21,7 @@ Open `index.html` in a browser for the same page without deploying.
 
 ## Deploy
 
-Cloudflare Worker, static assets, Uppercut Labs account. The host is `workers.dev`. A custom domain would need a DNS decision, so this config does not attach one.
+Cloudflare Worker, static assets, Uppercut Labs account. The host is `job-notes.uppercut-labs.com`, the same `{name}.uppercut-labs.com` custom domain the other apps use. `workers.dev` is off.
 
 From the repository root, with Wrangler authenticated to that account:
 
